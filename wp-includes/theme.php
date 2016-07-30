@@ -2146,9 +2146,10 @@ function wp_customize_support_script() {
 			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
 		}());
 	</script>
+
 	<?php
 }
-
+	
 /**
  * Whether the site is being previewed in the Customizer.
  *
